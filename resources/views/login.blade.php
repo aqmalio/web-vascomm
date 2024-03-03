@@ -4,6 +4,22 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <title>Login</title>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.bunny.net">
+        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
+
+        <!-- Styles -->
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <title>Vascomm</title>
 
         <!-- Fonts -->
@@ -34,11 +50,11 @@
             </div>
 
             <div class="flex gap-4 self-stretch text-sm font-bold whitespace-nowrap tracking-[3.5px]">
-                <a href="{{route('login')}}"
+                <div
                 class="justify-center px-4 py-3 text-blue-500 border border-blue-500 border-solid hover:bg-blue-500 hover:text-white cursor-pointer transition-colors"
                 >
                 MASUK
-                </a>
+                </div>
                 <div class="justify-center px-4 py-3 text-orange-100 border border-solid bg-blue-500 hover:bg-white hover:border-blue-500 hover:text-dark cursor-pointer transition-colors">
                 DAFTAR
                 </div>
@@ -181,5 +197,8 @@
         </div>
         <div class="w-full bg-cyan-50 min-h-[24px] max-md:max-w-full"></div>
         </div>
+    </body>
+</html>
+
     </body>
 </html>
